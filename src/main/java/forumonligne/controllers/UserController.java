@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class UserController {
 
-	public String welcome() {
-		return "welcome to forumeonline backend deployed";
-	}
 	
 	@CrossOrigin()
 	@GetMapping("/users")
